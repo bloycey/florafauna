@@ -224,7 +224,7 @@ border-top: 1px solid #eeeeee;
 
 .navbar.navbar-default.navbar-static-top {
     position: fixed;
-    top: 15px;
+    top: 0px;
     padding-right: 10px;
     width: 90%;
     height: 85px;
@@ -438,13 +438,13 @@ h4 {
 /* SLIDER */
 
 section.hero-slider {
-    margin-top: -10px;
+    margin-top: -25px !important;
 }
 
-.slick-slide img {
-    display: block;
-    max-width: 100%;
+.bx-wrapper .bx-controls-direction a {
+    z-index: 900;
 }
+
 
 
 /*==================================================
@@ -521,6 +521,10 @@ ul.nav.navbar-nav > li {
         .megamenu.dropdown-menu {
     height: auto;
     overflow: auto;
+}
+        
+        section.hero-slider {
+    margin-top: -10px;
 }
         
     }
