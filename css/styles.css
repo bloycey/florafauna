@@ -192,13 +192,16 @@ a {
 
 /* MEGA MENU */
 
+nav .navbar li {
+    text-transform: uppercase;
+}
+
 .megamenu.dropdown-menu {
     height: 500px;
     overflow: auto;
 }
 
 .navbar-default{
-color: #fff;
 background-color: #fff !important;;
 border-color: #eeeeee;
 background-image: none;
@@ -304,6 +307,39 @@ border-top: 1px solid #eeeeee;
     
 }
 
+/* MEGA MENU CONTENT */
+
+.brands-featured i, .brands-featured h4 {
+    color: #789d4a;
+    font-weight: bold;
+    text-align: left;
+}
+
+.brands-featured i {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.brands-featured h4 {
+    font-size: 16px;
+}
+
+.brands-featured p {
+    text-transform: lowercase;
+    line-height: 1.8;
+}
+
+.brands-featured button {
+    background-color: #789d4a;
+    color: white;
+    box-shadow: none;
+    border: solid 1px #789d4a;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+
+
 /********* END MEGA MENU *************/
 
 .tester {
@@ -382,6 +418,11 @@ ul.nav.navbar-nav > li {
         
         .newsletter-promo p {
     margin-top: -12px; 
+}
+        
+        .megamenu.dropdown-menu {
+    height: auto;
+    overflow: auto;
 }
         
     }
