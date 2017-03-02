@@ -1,0 +1,250 @@
+/* ==========================================================================
+   Styles
+   ========================================================================== */
+
+/*body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+            }*/
+       
+
+/*div {
+    border: 1px solid #333333;
+    padding: 50px
+}*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fontAwesome {
+  font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+
+.top-bar {
+    background-color: #e4ecd5;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 0px;
+}
+
+.top-bar .top-bar-text p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.top-bar .top-bar-text span.shop-here {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #789d4a;
+    margin-left: 10px;
+}
+
+.top-bar .top-bar-text i {
+     color: #789d4a;
+    font-size: 11px
+}
+
+
+.mini-menu .mini-menu-items .social-links {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    padding-right: 10px;
+}
+
+.mini-menu .mini-menu-items .social-links i {
+    font-size: 16px;
+    padding: 5px;
+    color: #789d4a;
+    
+}
+
+
+.mini-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.mini-menu .mini-menu-items {
+   width: 100%;
+}
+
+
+.mini-menu .mini-menu-links ul {
+    margin-left: 50px;
+}
+
+
+.mini-menu .mini-menu-links li {
+    display: inline;
+    float: left;
+    margin-top: 7px;
+    padding-left: 6px;
+    font-size: 11px
+}
+
+.mini-menu .mini-menu-links li span {
+    color: #dbdbdb;
+    margin-left: 6px
+}
+
+.mini-menu .mini-menu-account-links li {
+    display: inline;
+    float: right;
+    padding-left: 6px;
+    font-size: 11px;
+    margin-top: 7px;   
+}
+
+.mini-menu .mini-menu-account-links i {
+    font-size: 12px;
+    padding-right: 5px;
+    color: #789d4a;
+    
+}
+
+.mini-menu .mini-menu-account-links li {
+    padding-left: 6px;
+    font-size: 11px;
+    padding-right: 6px
+}
+
+#header-main {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.header .logo-container img {
+    margin-left: 25%;
+    width: 50%;
+    max-width: 263px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-container input[type="search"] {
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    margin-top: 27.5px;
+    border: 1px solid #dadcdd;
+    border-radius: 3px;
+    padding: 5px;
+     
+}
+
+.search-container {
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.newsletter-promo {
+    position: relative;
+}
+
+.newsletter-promo h4 {
+    text-align: center;
+    margin: 0px;
+}
+
+.newsletter-promo i {
+    font-size: 50px;
+    vertical-align: middle;
+    padding-right: 10px;
+    color: #789d4a;
+}
+
+.newsletter-promo p {
+    text-align: center;
+    margin-top: -12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.cart-info-container {
+    margin-top: 34px;
+    margin-left: -20px;
+    text-align: center;
+}
+
+.cart-info-container select {
+    display: inline;
+    width: auto;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    
+        .header .logo-container img {
+    margin-left: auto;
+    width: auto;
+}
+        .header .logo-container img {
+    margin-left: auto;
+    width: 100%;   
+}
+        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+#7b7d78
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
