@@ -192,6 +192,11 @@ a {
 
 /* MEGA MENU */
 
+.megamenu.dropdown-menu {
+    height: 500px;
+    overflow: auto;
+}
+
 .navbar-default{
 color: #fff;
 background-color: #fff !important;;
@@ -301,7 +306,9 @@ border-top: 1px solid #eeeeee;
 
 /********* END MEGA MENU *************/
 
-
+.tester {
+    height: 800px;
+}
 
 
 
