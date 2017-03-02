@@ -144,6 +144,7 @@ a {
 .search-container {
     height: 65px;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .newsletter-promo {
@@ -191,6 +192,26 @@ background-color: #fff !important;;
 border-color: #eeeeee;
 background-image: none;
 border-top: 1px solid #eeeeee;
+}
+
+.navbar.navbar-default.navbar-static-top {
+    position: fixed;
+    top: 15px;
+    padding-right: 50px;
+    width: 100%;
+    height: 85px;
+    padding-bottom: 100px;
+}
+
+.navbar-header button {
+    margin-top: 30px
+}
+
+
+
+.navbar-collapse {
+      margin-top: 28px;
+    background-image: url(rider-2.jpg);
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret{
@@ -244,6 +265,7 @@ border-top: 1px solid #eeeeee;
   color: #428bca;
   font-size: 18px;
 }
+
 @media (max-width: 768px) {
   .megamenu{
     margin-left: 0 ;
@@ -262,6 +284,7 @@ border-top: 1px solid #eeeeee;
   .navbar-nav .open .dropdown-menu .dropdown-header{
 	color:#fff;
   }
+    
 }
 
 /********* END MEGA MENU *************/
@@ -301,6 +324,39 @@ border-top: 1px solid #eeeeee;
     margin-left: auto;
     width: 100%;   
 }
+        
+    ul.nav.navbar-nav {
+    display: table;
+    width: 100%;
+    margin: 0;
+}
+
+ 
+        
+ul.nav.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+}
+         
+        .navbar.navbar-default.navbar-static-top {
+    position: relative;
+}
+       
+        .navbar.navbar-default.navbar-static-top {
+            height: auto;
+            padding-bottom: 0px;
+}
+        
+        .search-container {
+    margin-top: 0px;
+}
+
+        .navbar-collapse {
+      margin-top: 0px;
+    background-image: none;
+}
+
         
     }
 
