@@ -28,6 +28,16 @@ a {
     color: inherit;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #789d4a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 12px;
+}
+
 .fontAwesome {
   font-family: Helvetica, 'FontAwesome', sans-serif;
 }
@@ -192,7 +202,11 @@ a {
 
 /* MEGA MENU */
 
-nav .navbar li {
+/*nav .navbar li {
+    text-transform: uppercase;
+}*/
+
+.menu-item {
     text-transform: uppercase;
 }
 
@@ -259,7 +273,7 @@ border-top: 1px solid #eeeeee;
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;
-  color: #333333;
+  color: #838383;
   white-space: normal;
 }
 .megamenu> li ul > li > a:hover,
@@ -325,7 +339,7 @@ border-top: 1px solid #eeeeee;
     padding-right: 10px;
 }
 
-.brands-featured h4 {
+h4 {
     font-size: 16px;
 }
 
@@ -334,7 +348,7 @@ border-top: 1px solid #eeeeee;
     line-height: 1.8;
 }
 
-.brands-featured button {
+.brands-featured button, .makeup-menu button {
     background-color: #789d4a;
     color: white;
     box-shadow: none;
@@ -350,12 +364,76 @@ border-top: 1px solid #eeeeee;
 }
 
 .flexy {
-    background-color: grey;
+    background-color: #f6f6f6;
     width: 100px;
     height: 60px;
     margin-left: 50px;
     margin-top: 20px;
 }
+
+/*Makeup menu */
+
+.makeup-hero {
+    border-radius: 50%;
+}
+
+.makeup-menu i, .makeup-menu h4 {
+    color: #789d4a;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.makeup-menu i {
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.makeup-menu img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.makeup-menu .dropdown-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+}
+
+.theme-button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.makeup-article {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.makeup-article .feature-image {
+    background-color: #f6f6f6;
+    width: 60%;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.makeup-article p {
+    font-size: 12px;
+}
+
+
+
+
 
 /********* END MEGA MENU *************/
 
