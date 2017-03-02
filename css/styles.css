@@ -309,6 +309,11 @@ border-top: 1px solid #eeeeee;
 
 /* MEGA MENU CONTENT */
 
+.brands-featured {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
 .brands-featured i, .brands-featured h4 {
     color: #789d4a;
     font-weight: bold;
@@ -338,7 +343,19 @@ border-top: 1px solid #eeeeee;
     border-radius: 3px;
 }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.flexy {
+    background-color: grey;
+    width: 100px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
 
 /********* END MEGA MENU *************/
 
