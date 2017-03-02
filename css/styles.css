@@ -433,15 +433,18 @@ h4 {
 
 
 
-
-
 /********* END MEGA MENU *************/
 
-.tester {
-    height: 800px;
+/* SLIDER */
+
+section.hero-slider {
+    margin-top: -10px;
 }
 
-
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+}
 
 
 /*==================================================
