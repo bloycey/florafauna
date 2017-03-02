@@ -17,6 +17,13 @@
     box-shadow: none !important;
 }
 
+//** DISABLE SIDE SCROLL **//
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -198,7 +205,7 @@ border-top: 1px solid #eeeeee;
     position: fixed;
     top: 15px;
     padding-right: 50px;
-    width: 100%;
+    width: 90%;
     height: 85px;
     padding-bottom: 100px;
 }
@@ -357,6 +364,9 @@ ul.nav.navbar-nav > li {
     background-image: none;
 }
 
+        .navbar.navbar-default.navbar-static-top {
+            width: 100%;
+        }
         
     }
 
