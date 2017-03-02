@@ -17,9 +17,8 @@
     box-shadow: none !important;
 }
 
-//** DISABLE SIDE SCROLL **//
 
-html, body {
+html {
     max-width: 100%;
     overflow-x: hidden;
 }
