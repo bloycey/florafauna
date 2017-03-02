@@ -172,7 +172,7 @@ a {
 
 .newsletter-promo p {
     text-align: center;
-    margin-top: -12px;
+    /*margin-top: -12px;*/
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -204,11 +204,16 @@ border-top: 1px solid #eeeeee;
 .navbar.navbar-default.navbar-static-top {
     position: fixed;
     top: 15px;
-    padding-right: 50px;
+    padding-right: 10px;
     width: 90%;
     height: 85px;
     padding-bottom: 100px;
 }
+
+.navbar.navbar-default.navbar-static-top img {
+    max-width: 200px;
+}
+
 
 .navbar-header button {
     margin-top: 30px
@@ -217,8 +222,9 @@ border-top: 1px solid #eeeeee;
 
 
 .navbar-collapse {
-      margin-top: 28px;
-    background-image: url(rider-2.jpg);
+    margin-top: 28px;
+    background-image: none;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret{
@@ -367,6 +373,10 @@ ul.nav.navbar-nav > li {
         .navbar.navbar-default.navbar-static-top {
             width: 100%;
         }
+        
+        .newsletter-promo p {
+    margin-top: -12px; 
+}
         
     }
 
