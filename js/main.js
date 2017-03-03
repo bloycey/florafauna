@@ -12,5 +12,15 @@ $(document).ready(function(){
         speed: 1000,
     });
     
+    $('.bxslider-why-shop').bxSlider({
+  minSlides: 2,
+  maxSlides: 2,
+  slideWidth: 320,
+  slideMargin: 10,
+    pager: false,
+    auto: true,
+    infitnite: true,
+});
+    
 });
 

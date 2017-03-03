@@ -488,7 +488,7 @@ section.hero-slider {
 .most-popular .most-popular-heading h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -15px;
     display: block;
     width: 75%;
@@ -611,6 +611,62 @@ section.most-popular {
     border: 1px solid #eeeeee;
     border-radius: 3px;
     padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+
+/*WHY SHOP */
+
+section.why-shop-flora {
+    background-image: url(why-shop-bg.jpg);
+    margin-top: 10px;
+    clear: both;
+    height: auto;
+}
+
+
+.why-shop-heading h2 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.why-shop-flora .why-shop-heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.why-shop-flora .why-shop-heading i {
+    padding: 10px;
+}
+
+.why-shop-heading h4 {
+    text-transform: capitalize
+}
+
+.clear {
+    clear:both;
+}
+
+.perk {
+    padding-top: 18px;
+}
+
+.why-shop-slider {
+    margin-top: 12px;
+}
+
+.testimonial {
+    padding: 10px;
+    background-color: white;
 }
 
 .spacer {
