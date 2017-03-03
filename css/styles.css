@@ -211,7 +211,7 @@ h5 {
 }
 
 .megamenu.dropdown-menu {
-    height: 500px;
+    height: 400px;
     overflow: auto;
 }
 
@@ -478,7 +478,82 @@ section.hero-slider {
     margin-top: 22%;
 }
 
+section.hero-slider {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
+/* MOST POPULAR PRODUCTS */
+
+.most-popular .most-popular-heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: -15px;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+
+.most-popular .most-popular-heading i {
+    padding: 10px;
+}
+
+section.most-popular {
+    border-top: 1px solid #dadcdd;
+    margin-top: -30px;
+}
+
+.popular {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 233px;
+    z-index: 1;
+}
+
+.popular-product-block {
+    margin-top: 30px;
+}
+
+.grey-block {
+    position: relative;
+    background-color: rgba(208,208,208,0.5);
+    height:30px;
+    margin-top: -20px;
+    z-index:9999;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.grey-block i {
+    width: 30%;
+    float:left; 
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 6px;
+    color: #666666;
+}
+
+.grey-block p {
+    text-align: left;
+    float: right;
+    width: 70%;
+    padding-top: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666666;
+}
+
+
+.spacer {
+    height: 800px;
+}
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -562,6 +637,10 @@ ul.nav.navbar-nav > li {
         
         .slider button {
     margin-top: 0px;
+}
+        
+    .most-popular .most-popular-heading h2 {
+    width: 25%;
 }
 
         
