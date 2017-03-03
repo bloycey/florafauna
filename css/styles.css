@@ -508,7 +508,6 @@ section.most-popular {
 }
 
 .popular {
-    position: relative;
     display: block;
     margin: 0 auto;
     max-width: 233px;
@@ -550,6 +549,69 @@ section.most-popular {
     color: #666666;
 }
 
+.popular-product-meta {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.loyalty-points, .star-rating {
+    margin-top: 3px;
+}
+
+.product-title p {
+    margin-top: 60px;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.btn-std, .btn-muted, .btn-bright {
+    text-align: center;
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+    border-style: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.btn-std {
+    background-color: #789d4a;
+    color: white;
+}
+
+.btn-muted {
+    background-color: #e4ecd5; 
+    color: #789d4a;  
+}
+
+.btn-bright {
+    background-color: #f0ad4e; 
+    color: #ffffff;
+}
+
+.shipping-disclaimer {
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.product-container {
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    padding: 5px 0;
+}
 
 .spacer {
     height: 800px;
