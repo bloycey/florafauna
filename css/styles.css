@@ -348,15 +348,6 @@ h4 {
     line-height: 1.8;
 }
 
-.brands-featured button, .makeup-menu button {
-    background-color: #789d4a;
-    color: white;
-    box-shadow: none;
-    border: solid 1px #789d4a;
-    padding: 5px 15px;
-    border-radius: 3px;
-}
-
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -408,6 +399,12 @@ h4 {
     text-align: center;
     display: block;
     margin: 0 auto;
+    background-color: #789d4a;
+    color: white;
+    box-shadow: none;
+    border: solid 1px #789d4a;
+    padding: 5px 15px;
+    border-radius: 3px;
 }
 
 .makeup-article {
@@ -443,6 +440,42 @@ section.hero-slider {
 
 .bx-wrapper .bx-controls-direction a {
     z-index: 900;
+}
+
+.bxslider, .slider, .hero-slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider-text {
+    position: absolute;
+    top: 12%;
+    left: 40%;
+    z-index: 900;
+    margin: 0 auto;
+    text-align: left;  
+}
+
+.slider-text h4, .slider-text h2 {
+    color: #582800;
+}
+
+.slider-text h2 {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.slider-text h4 {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.slider button {
+    margin-top: 22%;
 }
 
 
@@ -526,6 +559,11 @@ ul.nav.navbar-nav > li {
         section.hero-slider {
     margin-top: -10px;
 }
+        
+        .slider button {
+    margin-top: 0px;
+}
+
         
     }
 
