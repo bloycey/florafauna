@@ -1,8 +1,14 @@
 $(document).ready(function(){
+    $(".dropdown-menu").hide();
+    
     $(".dropdown").hover(
-        function() { $('.dropdown-menu', this).stop().fadeIn("fast");
+        function() { 
+            
+            $('.dropdown-menu', this).stop().fadeIn("fast");
         },
-        function() { $('.dropdown-menu', this).stop().fadeOut("fast");
+        function() { 
+            
+            $('.dropdown-menu', this).stop().fadeOut("fast");
     });
     
     $('.bxslider').bxSlider({

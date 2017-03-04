@@ -13,6 +13,23 @@
     padding: 50px
 }*/
 
+@media (min-width: 768px) {
+  .container {
+    width: 750px !important;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px !important;
+  }
+}
+
+
 * {
     box-shadow: none !important;
 }
@@ -42,9 +59,16 @@ h5 {
     font-size: 12px;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
 .fontAwesome {
   font-family: Helvetica, 'FontAwesome', sans-serif;
 }
+
 
 .top-bar {
     background-color: #e4ecd5;
@@ -256,12 +280,13 @@ border-top: 1px solid #eeeeee;
 }
 
 .menu-large {
-  position: static !important;
+  position: relative !important;
 }
 
 .megamenu{
   padding: 20px 0px;
-  width:100%;
+    display: block;
+    width: auto;
 }
 .megamenu> li > ul {
   padding: 0;
@@ -438,6 +463,11 @@ h4 {
 
 section.hero-slider {
     margin-top: -25px !important;
+}
+
+
+section.hero-slider .bx-wrapper img {
+    width: 100vw;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -641,6 +671,7 @@ section.why-shop-flora {
 }
 
 .row.why-shop {
+    display: block;
     margin: 0 auto;
 }
 
@@ -678,7 +709,6 @@ section.why-shop-flora {
 
 .perk {
     padding-top: 24px;
-    max-width: 310px;
     margin: 0 auto;
     display: block;
 }
