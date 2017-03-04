@@ -354,7 +354,6 @@ h4 {
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .flexy {
@@ -844,6 +843,44 @@ cite {
     text-transform: none;
     font-size: 95%;
     text-align: center;
+}
+
+/* Video Section */
+
+section.video {
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 10px
+}
+
+.video-youtube {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video .video-h2 {
+    background-color: #f9f9f9;
+}
+
+.video-heading-and-text {
+    margin-top: -20px
+}
+
+.image-gallery-v {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.flexy-v {
+    background-color: #f6f6f6;
+    width: 120px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .spacer {
