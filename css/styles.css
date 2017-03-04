@@ -23,6 +23,10 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -160,7 +164,7 @@ h5 {
 .search-container {
     height: 65px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .newsletter-promo {
@@ -223,12 +227,11 @@ border-top: 1px solid #eeeeee;
 }
 
 .navbar.navbar-default.navbar-static-top {
-    position: fixed;
-    top: 0px;
     padding-right: 10px;
-    width: 90%;
+    width: 100%;
     height: 85px;
-    padding-bottom: 100px;
+    background-color: white;
+    z-index: 9999;
 }
 
 .navbar.navbar-default.navbar-static-top img {
@@ -243,7 +246,6 @@ border-top: 1px solid #eeeeee;
 
 
 .navbar-collapse {
-    margin-top: 28px;
     background-image: none;
     background-color: #fff;
 }
@@ -256,6 +258,7 @@ border-top: 1px solid #eeeeee;
 .menu-large {
   position: static !important;
 }
+
 .megamenu{
   padding: 20px 0px;
   width:100%;
@@ -523,7 +526,7 @@ section.most-popular {
     background-color: rgba(208,208,208,0.5);
     height:30px;
     margin-top: -20px;
-    z-index:9999;
+    z-index:9000;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -618,12 +621,15 @@ section.most-popular {
 /*WHY SHOP */
 
 section.why-shop-flora {
-    background-image: url(why-shop-bg.jpg);
+    background-color: #f6f6f6;
     margin-top: 10px;
     clear: both;
     height: auto;
 }
 
+.row.why-shop {
+    margin: 0 auto;
+}
 
 .why-shop-heading h2 {
     text-align: center;
@@ -637,10 +643,11 @@ section.why-shop-flora {
     text-transform: uppercase;
     font-size: 20px;
     display: block;
-    width: 75%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -657,21 +664,46 @@ section.why-shop-flora {
 }
 
 .perk {
-    padding-top: 18px;
+    padding-top: 24px;
+    max-width: 310px;
+    margin: 0 auto;
+    display: block;
 }
 
 .why-shop-slider {
-    margin-top: 12px;
+    margin-top: 24px;
 }
+
 
 .testimonial {
     padding: 10px;
     background-color: white;
 }
 
+.perk i {
+    font-size: 20px;
+    
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
+    color: #666666;
+}
+
+.why-shop-slider .bx-wrapper .bx-next {
+    right: -36px;
+}
+
+.why-shop-slider .bx-wrapper .bx-prev {
+    left: -36px;
+}
+
 .spacer {
     height: 800px;
 }
+
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -760,6 +792,11 @@ ul.nav.navbar-nav > li {
     .most-popular .most-popular-heading h2 {
     width: 25%;
 }
+    .why-shop-flora .why-shop-heading h2 {
+    width: 75%;
+    margin-bottom: 0;
+}
+
 
         
     }
@@ -767,6 +804,9 @@ ul.nav.navbar-nav > li {
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
 
+        section.why-shop-flora {
+    background-image: url(why-shop-bg.jpg);
+    background-size: cover;
     }
 
     /* Large Devices, Wide Screens */

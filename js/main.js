@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
     
     $('.bxslider-why-shop').bxSlider({
-  minSlides: 2,
+  minSlides: 1,
   maxSlides: 2,
   slideWidth: 320,
   slideMargin: 10,
