@@ -20,6 +20,18 @@ $(document).ready(function(){
     pager: false,
     auto: true,
     infitnite: true,
+    speed: 1200,
+});
+    
+      $('.bxslider-featured-brands').bxSlider({
+  minSlides: 1,
+  maxSlides: 6,
+  slideWidth: 150,
+  slideMargin: 5,
+    pager: false,
+    auto: true,
+    infitnite: true,
+    speed: 500,
 });
     
 });

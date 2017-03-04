@@ -524,28 +524,6 @@ section.hero-slider {
 
 /* MOST POPULAR PRODUCTS */
 
-.most-popular .most-popular-heading h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin-top: -15px;
-    display: block;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-}
-
-
-.most-popular .most-popular-heading i {
-    padding: 10px;
-}
-
-section.most-popular {
-    border-top: 1px solid #dadcdd;
-    margin-top: 35px;
-}
-
 .popular {
     display: block;
     margin: 0 auto;
@@ -735,6 +713,139 @@ cite {
     left: -36px;
 }
 
+
+/* Featured Brands Section */
+
+.theme-heading h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: -15px;
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.theme-heading-container {
+    border-top: 1px solid #dadcdd;
+    margin-top: 55px;
+}
+
+.theme-heading i {
+    padding: 10px;
+}
+
+.feat-brand {
+    background-color: #f6f6f6;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    /*margin-left: 50px;*/
+}
+
+.alt {
+    background-color: #eeeeee !important; 
+}
+
+.featured-panel-text {
+    text-align: center;
+    color: #789d4a;
+    font-weight: bold;
+    font-size: 90%;
+    margin-top: -10px;
+    bottom: 0px;
+}
+
+.featured-brands-slider .bx-wrapper .bx-next {
+    right: -36px;
+}
+
+.featured-brands-slider .bx-wrapper .bx-prev {
+    left: -36px;
+}
+
+.featured-brands-slider .bx-wrapper {
+    margin: 0 auto 26px;
+}
+
+
+/*Our Blog Section */
+
+.blog-1-image img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blog-meta span.social-color {
+    float: right;
+}
+
+.blog-meta span.social-color i {
+    padding: 5px;
+    font-size: 15px
+}
+
+.blog-meta .ion-social-facebook {
+    color: #3b5999;
+}
+
+.blog-meta .ion-social-twitter {
+    color: #55acee;
+}
+
+.blog-meta .ion-social-pinterest {
+    color: #bd081c;
+}
+
+.blog-meta .ion-social-googleplus {
+    color: #dd4b39;
+}
+
+.blog-meta span.date {
+    float: left;
+}
+
+.blog-meta {
+    padding-bottom: 10px;
+}
+
+.our-blog-section .blog-heading h4 {
+    text-transform: none;
+    line-height: 1.4;
+}
+
+.blog-text-excerpt {
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-blog-section .theme-button {
+    text-transform: uppercase;
+}
+
+.blog img {
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+}
+
+.blog p {
+    text-align: center;
+    font-size: 90%;
+}
+
+.our-blog-section .blog-summary .blog-heading h4 {
+    text-transform: none;
+    font-size: 95%;
+    text-align: center;
+}
+
 .spacer {
     height: 800px;
 }
@@ -825,7 +936,7 @@ ul.nav.navbar-nav > li {
     margin-top: 0px;
 }
         
-    .most-popular .most-popular-heading h2 {
+    .theme-heading h2 {
     width: 25%;
 }
     .why-shop-flora .why-shop-heading h2 {
