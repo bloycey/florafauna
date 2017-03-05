@@ -455,8 +455,8 @@ h4 {
 
 .makeup-article .feature-image {
 	background-color: #f6f6f6;
-	width: 60%;
-	height: 80px;
+	width: 80%;
+	height: 120px;
 	margin-left: 50px;
 	margin-top: 20px;
 	display: block;
@@ -1141,6 +1141,18 @@ section.video {
     width: initial;
 }
     
+    .navbar-nav>li>a {
+    padding-left: 0px;
+}
+    
+    .makeup-menu {
+    width: 600px;
+}
+    
+    .theme-button {
+    display: block;
+    }
+    
     
 }
 
@@ -1161,6 +1173,18 @@ section.video {
     .theme-heading h2 {
 		width: 25%;
 	}
+    
+     .navbar-nav>li>a {
+    padding-left: initial;
+}
+    
+    .theme-button {
+    display: inline-block;
+    }
+    
+      .makeup-menu {
+    width: 1000px;
+}
 }
 
 

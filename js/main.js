@@ -1,5 +1,7 @@
 $(document).ready(function(){
    
+    /* Enable hover on menu if screen is over 992 pixels - otherwise menus must be clicked (for phones) */
+    
     if($(window).width() >= 992){
   
         
@@ -11,10 +13,7 @@ $(document).ready(function(){
         
 }
     
-   
-    
-    
-    
+    /* Slider Settings*/
     
     $('.bxslider').bxSlider({
         auto: true,
