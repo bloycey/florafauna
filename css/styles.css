@@ -204,7 +204,9 @@ h5 {
 	/*margin-top: -12px;*/
 	padding-right: 10px;
 	padding-left: 10px;
+    font-size: 80%;
 }
+
 
 .cart-info-container {
 	margin-top: 34px;
@@ -217,6 +219,10 @@ h5 {
 	width: auto;
 	padding: 3px;
 	margin-left: 5px;
+}
+
+.cart-info-content img {
+    margin-bottom: 8px;
 }
 
 
@@ -252,6 +258,10 @@ h5 {
 	z-index: 9999;
 }
 
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 422px;
+}
+
 .navbar.navbar-default.navbar-static-top img {
 	max-width: 200px;
 }
@@ -263,12 +273,9 @@ h5 {
 .navbar-collapse {
 	background-image: none;
 	background-color: #fff;
+    width: 100vw;
 }
 
-.navbar-default .navbar-nav> .dropdown> a .caret {
-	border-top-color: #fff;
-	border-bottom-color: #fff;
-}
 
 .menu-large {
 	position: relative !important;
@@ -459,16 +466,19 @@ ul.dropdown-menu.megamenu.row.makeup-menu.container {
 
 /* SLIDER */
 
-section.hero-slider {
-	margin-top: -25px !important;
+/*DEVELOPER NOTE: Use of !important isn't ideal, but is necessary in this instance to overwrite styles from the 3rd party slider plugin */
+
+.bx-wrapper .bx-controls-direction a {
+	z-index: 900 !important;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 0px !important;
 }
 
 section.hero-slider .bx-wrapper img {
 	width: 100vw;
-}
-
-.bx-wrapper .bx-controls-direction a {
-	z-index: 900;
 }
 
 .bxslider, .slider, .hero-slider {
@@ -519,13 +529,14 @@ section.hero-slider {
 	background-color: #e4ecd5;
 	display: flex;
 	align-items: center;
-	height: 60px;
+	height: auto;
 	margin: 0px;
 }
 
 .promo-bar .promo-bar-text p {
 	text-align: center;
 	margin-bottom: 0px;
+    padding: 9px 0px;
 }
 
 .promo-bar .promo-bar-text i {
@@ -536,6 +547,7 @@ section.hero-slider {
 
 .promo-bar button {
 	margin-left: 15px;
+    margin-top: 8px;
 }
 
 .promo-bar span.join {
@@ -683,7 +695,7 @@ section.why-shop-flora {
 .why-shop-flora .why-shop-heading h2 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 15.5px;
 	display: block;
 	width: 100%;
 	margin-left: auto;
@@ -712,6 +724,7 @@ section.why-shop-flora {
 
 .why-shop-slider {
 	margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .testimonial {
@@ -743,7 +756,7 @@ cite {
 .theme-heading h2 {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 15px;
 	margin-top: -15px;
 	display: block;
 	width: 75%;
@@ -792,7 +805,11 @@ cite {
 }
 
 .featured-brands-slider .bx-wrapper {
-	margin: 0 auto 26px;
+	margin: 0 auto 20px;
+}
+
+.featured-brands-slider {
+    margin-bottom: 20px;
 }
 
 
@@ -855,7 +872,7 @@ cite {
 
 .blog img {
 	width: 100%;
-	height: 250px;
+	height: 150px;
 	padding: 15px;
 }
 
@@ -868,6 +885,10 @@ cite {
 	text-transform: none;
 	font-size: 95%;
 	text-align: center;
+}
+
+.blog-1-content {
+    margin-bottom: 15px;
 }
 
 
@@ -987,11 +1008,16 @@ section.video {
 }
 
 .footer-bottom .bio-details img {
+    max-width: 100%;
     margin-bottom: 10px;
 }
 
 .footer-bottom .bio-details i {
     margin-right: 5px;
+}
+
+.bio-details, .information {
+    margin-top: 15px;
 }
 
 .copyright {
@@ -1073,7 +1099,7 @@ section.video {
 		margin-top: 0px;
 	}
 	.theme-heading h2 {
-		width: 25%;
+		width: 43%;
 	}
 	.why-shop-flora .why-shop-heading h2 {
 		width: 75%;
@@ -1082,6 +1108,32 @@ section.video {
 	.hero-slider .bx-wrapper {
 		margin: 0 auto 0px;
 	}
+    
+    
+    section.hero-slider {
+	margin-top: -25px !important;
+}
+    .theme-heading h2, .why-shop-flora .why-shop-heading h2 {
+	font-size: 20px;
+}
+    .newsletter-promo p {
+    font-size: 100%;
+}
+    .cart-info-content img {
+    margin-bottom: 0;
+}
+    
+    .promo-bar button {
+    margin-top: 0;
+}
+    
+    .bio-details, .information {
+    margin-top: 0px;
+}
+    .navbar-collapse {
+    width: initial;
+}
+    
 }
 
 
@@ -1091,6 +1143,15 @@ section.video {
 	section.why-shop-flora {
 		background-image: url(why-shop-bg.jpg);
 		background-size: cover;
+	}
+    
+     .blog img {
+	width: 100%;
+	height: 250px;
+    }
+    
+    .theme-heading h2 {
+		width: 25%;
 	}
 }
 

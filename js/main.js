@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $(".dropdown-menu").hide();
+    /*$(".dropdown-toggle").dropdown("toggle");
+    $(".dropdown-toggle").dropdown();
     
     $(".dropdown").hover(
         function() { 
@@ -9,7 +11,9 @@ $(document).ready(function(){
         function() { 
             
             $('.dropdown-menu', this).stop().fadeOut("fast");
-    });
+    });*/
+    
+    
     
     $('.bxslider').bxSlider({
         auto: true,
@@ -39,6 +43,7 @@ $(document).ready(function(){
     infitnite: true,
     speed: 500,
 });
+    
     
 });
 
