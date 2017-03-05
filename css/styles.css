@@ -3,38 +3,8 @@
    ========================================================================== */
 
 
-/*body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-            }*/
-
-
-/*div {
-    border: 1px solid #333333;
-    padding: 50px
-}*/
-
-/*@media (min-width: 768px) {
-	.container {
-		width: 750px !important;
-	}
-}
-
-@media (min-width: 992px) {
-	.container {
-		width: 970px !important;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px !important;
-	}
-}
-*/
-
-* {
-	box-shadow: none !important;
+button {
+	box-shadow: none;
 }
 
 html {
@@ -55,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #789d4a;
 	text-transform: uppercase;
 	font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 h5 {
@@ -473,7 +448,7 @@ h4 {
 
 /* SLIDER */
 
-/*DEVELOPER NOTE: Use of !important isn't ideal, but is necessary in this instance to overwrite styles from the 3rd party slider plugin */
+/*DEVELOPER NOTE: Use of !important isn't ideal, but is necessary with these first bits of css to overwrite styles from the 3rd party slider plugin */
 
 .bx-wrapper .bx-controls-direction a {
 	z-index: 900 !important;
@@ -483,6 +458,7 @@ h4 {
     position: relative;
     margin: 0 auto 0px !important;
 }
+
 
 section.hero-slider .bx-wrapper img {
 	width: 100vw;
@@ -495,7 +471,7 @@ section.hero-slider .bx-wrapper img {
 
 .slider-text {
 	position: absolute;
-	top: 12%;
+	top: 20%;
 	left: 40%;
 	z-index: 900;
 	margin: 0 auto;
