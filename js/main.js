@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    $(".dropdown-menu").hide();
-    /*$(".dropdown-toggle").dropdown("toggle");
+    /*$(".dropdown-menu").hide();
+    $(".dropdown-toggle").dropdown("toggle");
     $(".dropdown-toggle").dropdown();
     
     $(".dropdown").hover(
