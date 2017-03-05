@@ -1,7 +1,5 @@
 $(document).ready(function(){
-    $(".dropdown-menu").hide();
-    /*$(".dropdown-toggle").dropdown("toggle");
-    $(".dropdown-toggle").dropdown();
+   
     
     $(".dropdown").hover(
         function() { 
@@ -11,7 +9,7 @@ $(document).ready(function(){
         function() { 
             
             $('.dropdown-menu', this).stop().fadeOut("fast");
-    });*/
+    });
     
     
     

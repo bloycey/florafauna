@@ -14,7 +14,7 @@
     padding: 50px
 }*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 	.container {
 		width: 750px !important;
 	}
@@ -31,6 +31,7 @@
 		width: 1170px !important;
 	}
 }
+*/
 
 * {
 	box-shadow: none !important;
@@ -237,10 +238,10 @@ h5 {
 	text-transform: uppercase;
 }
 
-.megamenu.dropdown-menu {
+/*.dropdown-menu {
 	height: 400px;
 	overflow: auto;
-}
+}*/
 
 .navbar-default {
 	background-color: #fff !important;
@@ -281,11 +282,7 @@ h5 {
 	position: relative !important;
 }
 
-.megamenu {
-	padding: 20px 0px;
-	display: block;
-	width: auto;
-}
+/*
 
 .megamenu> li> ul {
 	padding: 0;
@@ -324,36 +321,45 @@ h5 {
 	cursor: not-allowed;
 }
 
-.megamenu.dropdown-header {
-	color: #428bca;
-	font-size: 18px;
+*/
+
+.makeup-menu {
+	padding: 20px 0px;
+}
+
+.makeup-menu> li> ul> li> a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.428571429;
+	color: #838383;
+	white-space: normal;
 }
 
 @media (max-width: 768px) {
-	.megamenu {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	.megamenu> li {
+	
+	.makeup-menu> li {
 		margin-bottom: 30px;
 	}
 	.megamenu> li:last-child {
 		margin-bottom: 0;
 	}
-	.megamenu.dropdown-header {
-		padding: 3px 15px !important;
-	}
-	.navbar-nav .open .dropdown-menu .dropdown-header {
-		color: #fff;
-	}
+	
 }
 
+.makeup-menu.dropdown-header {
+	color: #428bca;
+	font-size: 18px;
+}
 
+.makeup-menu.dropdown-header {
+		padding: 3px 15px !important;
+	}
 /* MEGA MENU CONTENT */
 
 .brands-featured {
-	padding-left: 30px;
-	padding-top: 30px;
+	padding: 30px 0px 30px 30px;
 }
 
 .brands-featured i, .brands-featured h4 {
@@ -379,6 +385,7 @@ h4 {
 .image-gallery {
 	display: flex;
 	flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .flexy {
@@ -391,10 +398,6 @@ h4 {
 
 
 /*Makeup menu */
-
-ul.dropdown-menu.megamenu.row.makeup-menu.container {
-    max-width: 900px;
-}
 
 .makeup-hero {
 	border-radius: 50%;
@@ -410,6 +413,10 @@ ul.dropdown-menu.megamenu.row.makeup-menu.container {
 .makeup-menu i {
 	font-size: 17px;
 	padding-right: 10px;
+}
+
+.makeup-menu li {
+    list-style: none;
 }
 
 .makeup-menu img {
@@ -1088,10 +1095,10 @@ section.video {
 	.newsletter-promo p {
 		margin-top: -12px;
 	}
-	.megamenu.dropdown-menu {
+	/*.megamenu.dropdown-menu {
 		height: auto;
 		overflow: auto;
-	}
+	}*/
 	section.hero-slider {
 		margin-top: -10px;
 	}
@@ -1133,6 +1140,7 @@ section.video {
     .navbar-collapse {
     width: initial;
 }
+    
     
 }
 
