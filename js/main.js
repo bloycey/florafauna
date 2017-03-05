@@ -1,15 +1,18 @@
 $(document).ready(function(){
    
-    
-    $(".dropdown").bind('click hover', function() { 
-            
-            $('.dropdown-menu', this).stop().fadeIn("fast");
-        },
+    if($(window).width() >= 992){
+  
         
-        function() { 
-            
-            $('.dropdown-menu', this).stop().fadeOut("fast");
-    });
+   $(".dropdown").hover(
+        function() { $('.dropdown-menu', this).stop().fadeIn("fast");
+        },
+        function() { $('.dropdown-menu', this).stop().fadeOut("fast");
+    });          
+        
+}
+    
+   
+    
     
     
     
