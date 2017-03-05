@@ -1,672 +1,713 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
    <![endif]-->
-   <!--[if IE 7]>         
+<!--[if IE 7]>         
    <html class="no-js lt-ie9 lt-ie8" lang="">
       <![endif]-->
-      <!--[if IE 8]>         
+<!--[if IE 8]>         
       <html class="no-js lt-ie9" lang="">
          <![endif]-->
-         <!--[if gt IE 8]><!--> 
-         <html class="no-js" lang="">
-            <!--<![endif]-->
-            <head>
-               <meta charset="utf-8">
-               <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-               <title></title>
-               <meta name="description" content="">
-               <meta name="viewport" content="width=device-width, initial-scale=1">
-               <link rel="stylesheet" href="css/bootstrap.min.css">
-               <link rel="stylesheet" href="css/styles.css">
-               <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-               <link rel="stylesheet" href="css/ionicons.css">
-               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-               <link rel="stylesheet" href="css/jquery.bxslider.css">
-               
-               <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-            </head>
-            <body>
-               <!--[if lt IE 8]>
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<!--[if lt IE 8]>
                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
                <![endif]-->
-               <header>
-                  <section id="header-top" class="hidden-xs hidden-sm">
-                     <div class="row top-bar">
-                        <div class="top-bar-text col-sm-12">
-                           <p>$6 Delivery Fee with Free Shipping on all orders over $100 in Australia. International Delivery flat rate of $10 <a href="#"><span class="shop-here">Shop Here </span><i class="glyphicon glyphicon-play"></i></a></p>
-                        </div>
-                     </div>
-                     <div class="container">
-                        <div class="row mini-menu">
-                           <div class="mini-menu-items col-xs-6">
-                              <div class="social-links">
-                                 <a href="#"><i class="ion-social-facebook"></i></a>
-                                 <a href="#"><i class="ion-social-twitter"></i></a>
-                                 <a href="#"><i class="ion-social-googleplus"></i></a>
-                                 <a href="#"><i class="ion-social-youtube"></i></a>
-                                 <a href="#"><i class="ion-social-instagram-outline"></i></a>
-                              </div>
-                              <ul class="mini-menu-links">
-                                 <li><a href="#">Shop Samples </a> <span>|</span></li>
-                                 <li><a href="#">F&F Rewards </a><span>|</span></li>
-                                 <li><a href="#">Weekly Promotions </a><span>|</span></li>
-                                 <li><a href="#">Our Blog </a><span>|</span></li>
-                                 <li><a href="#">About Us </a></li>
-                              </ul>
-                           </div>
-                           <ul class="mini-menu-account-links col-xs-6">
-                              <li><a href="#"><i class="ion-help-circled"></i>Help and Advice</a> </li>
-                              <li><a href="#"><i class="glyphicon glyphicon-gift"></i>Gift Certificates</a> <span>|</span></li>
-                              <li><a href="#"><i class="ion-android-person"></i>My Account</a> <span>|</span></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </section>
-                  <section id="header-main">
-                     <div class="container">
-                        <div class="row header">
-                           <div class="logo-container col-sm-6 col-md-3">
-                              <img src="img/logo.jpg" alt="flora and fauna logo">
-                           </div>
-                           <div class="search-container col-sm-6 col-md-4">
-                              <input type="search" class="fontAwesome" placeholder="Search over 2000+ products    &#xf002;">
-                           </div>
-                           <div class="newsletter-promo col-xs-6 col-md-3">
-                              <h4><i class="ion-email"></i>NEWSLETTER</h4>
-                              <p>Save 10% on your first order by signing up now!</p>
-                           </div>
-                           <div class="cart-info col-xs-6 col-md-2">
-                              <div class="cart-info-container">
-                                 <div class="cart-info-content">
-                                    <img src="img/australia-currency.jpg" alt="">
-                                    <i class="ion-arrow-down-b"></i>
-                                    <select name="cart" class="fontAwesome" placeholder=" &#xf002;">
-                                       <option value="selection" disabled selected>CART: 2 items</option>
-                                       <option value="example 1">Awesome thing</option>
-                                       <option value="example 1">Expensive thing</option>
-                                    </select>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <nav>
-                        <div class="navbar navbar-default navbar-static-top navbar-fixed-top">
-                           <div class="container">
-                              <div class="navbar-header">
-                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                 <span class="icon-bar"></span>
-                                 <span class="icon-bar"></span>
-                                 <span class="icon-bar"></span>
-                                 </button>
-                                 <a class="navbar-brand hidden-sm hidden-md hidden-lg hidden-xl" href="#">
-                                 <img src="img/logo.jpg" alt="flora and fauna logo"></a>
-                              </div>
-                              <div class="navbar-collapse collapse">
-                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown menu-large">
-                                       <!--<a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">Brands  <i class="ion-arrow-down-b"></i></a>-->
-                                       <a href="#" class="dropdown-toggle menu-item"  data-toggle="dropdown">Brands
-  <span class="caret"></span></a>
-                                       
-                                       <ul class="dropdown-menu container" role="menu">
-                                             <li>
-                                             <div class="brands-featured col-sm-12 col-md-3">
-                                                <h4><i class="ion-leaf"></i>Great Selections</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus diam nibh, sed imperdiet lectus egestas eu. consectetur adipiscing elit. Integer rhoncus diam nibh, sed imperdiet lectus egestas eu. </p>
-                                                <a href="#">
-                                                <button class="theme-button">view all 2000+ brands</button>
-                                                </a>
-                                             </div>
-                                             <div class="col-md-9 col-sm-12">
-                                                <div class="image-gallery">
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                   <div class="flexy"></div>
-                                                </div>
-                                             </div>
-                                          </li>
-                                           
-                                       </ul>
-                                      
-                                   </li>
-                                    <li class="menu-item"><a href="#">New</a></li>
-                                    <li class="dropdown menu-large">
-                                       <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">Make up   <i class="ion-arrow-down-b"></i></a>	
-                                       			
-                                       <ul class="dropdown-menu row makeup-menu container" role="menu">
-                                          <li class="col-md-3 col-sm-12 makeup-panel">
-                                             <ul>
-                                                <h4><i class="ion-leaf"></i>Make Up</h4>
-                                                <img src="img/makeup-hero-square.jpg" alt="" class="makeup-hero">
-                                                <a href="#">
-                                                <button class="theme-button">view all products</button>
-                                                </a>
-                                             </ul>
-                                          </li>
-                                          <li class="col-sm-4 col-md-2">
-                                             <ul>
-                                                <li class="dropdown-header">Face</li>
-                                                <li><a href="#">Primer</a></li>
-                                                <li><a href="#">Foundation</a></li>
-                                                <li><a href="#">Highlighter</a></li>
-                                                <li><a href="#">Finishing Powder</a></li>
-                                                <li><a href="#">BB Creme</a></li>
-                                             </ul>
-                                             <ul>
-                                                <li class="dropdown-header">Eyes</li>
-                                                <li><a href="#">Eye Primer</a></li>
-                                                <li><a href="#">Eyeshadow</a></li>
-                                                <li><a href="#">Eyeliner</a></li>
-                                                <li><a href="#">Mascara</a></li>
-                                                <li><a href="#">False Eyelashses</a></li>
-                                                <li><a href="#">Eyebrow Pencils</a></li>
-                                             </ul>
-                                          </li>
-                                          <li class="col-sm-4 col-md-2">
-                                             <ul>
-                                                <li class="dropdown-header">Lips</li>
-                                                <li><a href="#">Lipstick</a></li>
-                                                <li><a href="#">Lip Gloss</a></li>
-                                                <li><a href="#">Lip Balm</a></li>
-                                                <li><a href="#">Lip Liner</a></li>
-                                             </ul>
-                                             <ul>
-                                                <li class="dropdown-header">Cheek</li>
-                                                <li><a href="#">Blush</a></li>
-                                                <li><a href="#">Bronzer</a></li>
-                                             </ul>
-                                             <ul>
-                                                <li class="dropdown-header">Nails</li>
-                                                <li><a href="#">Nail Polish</a></li>
-                                                <li><a href="#">Peelable Nail Polish</a></li>
-                                                <li><a href="#">Nail Polish Remover</a></li>
-                                             </ul>
-                                          </li>
-                                          <li class="col-sm-4 col-md-2">
-                                             <ul>
-                                                <li><a href="#">Base Coat & Top Coat</a></li>
-                                                <li><a href="#">Treatments</a></li>
-                                             </ul>
-                                             <ul>
-                                                <li class="dropdown-header">Brushes & Tools</li>
-                                                <li><a href="#">Brush Sets</a></li>
-                                                <li><a href="#">Eye Brushes</a></li>
-                                                <li><a href="#">Lip Brushes</a></li>
-                                                <li><a href="#">Face Brushes</a></li>
-                                                <li><a href="#">Cheek Brushes</a></li>
-                                                <li><a href="#">Sponges</a></li>
-                                                <li><a href="#">Small Tools</a></li>
-                                             </ul>
-                                          </li>
-                                          <li class="col-sm-12 col-md-3">
-                                             <div class="makeup-article">
-                                                <div class="feature-image"></div>
-                                                <h5>[SAMPLE] Article Title Lorem Ipsum dolor sit amet</h5>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, adipisci?</p>
-                                                <button class="theme-button">READ MORE</button>
-                                             </div>
-                                             <div class="makeup-article">
-                                                <div class="feature-image"></div>
-                                                <h5>[SAMPLE] Article Title Lorem Ipsum dolor sit amet</h5>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, adipisci?</p>
-                                                <button class="theme-button">READ MORE</button>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="#">Skin care</a></li>
-                                    <li class="menu-item"><a href="#">Body</a></li>
-                                    <li class="menu-item"><a href="#">Hair</a></li>
-                                    <li class="menu-item"><a href="#">Dental</a></li>
-                                    <li class="menu-item"><a href="#">Baby & Kids</a></li>
-                                    <li class="menu-item"><a href="#">Men</a></li>
-                                    <li class="menu-item"><a href="#">Living</a></li>
-                                    <li class="menu-item"><a href="#">Gifts</a></li>
-                                    <li class="menu-item"><a href="#">Beauty Boxes</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </nav>
-                  </section>
-               </header>
-               <section class="hero-slider">
-                  <div class="container-fluid">
-                     <div class="slider">
-                        <ul class="bxslider clearfix">
-                           <li><img src="/img/slider-1-large.jpg" alt="raw makeup on table" /></li>
-                           <li><img src="/img/slider-2-large.jpg" alt="makeup brushes on tray"/></li>
-                        </ul>
-                        <div class="slider-text">
-                           <h2 class="hidden-xs">La Mav</h2>
-                           <h4 class="hidden-xs">Cruelty Free,<br> Vegan Mineral Makeup.</h4>
-                           <button class="hidden-xs theme-button">Shop Now</button>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <div class="container-fluid">
-                  <div class="row promo-bar clearfix">
-                     <div class="promo-bar-text col-sm-12">
-                        <p><span class="join">Join</span> <span class="teamfandf">#teamfandf</span> to hear about new products, advice, and offers first. <a href="#"><button class="theme-button promo-btn"><i class="ion-email"></i>Sign up</button></a></p>
-                     </div>
-                  </div>
-               </div>
-               <section class="most-popular theme-heading-container">
-                  <div class="row most-popular-row">
-                     <div class="container-fluid">
-                        <div class="most-popular-heading theme-heading col-xs-12">
-                           <h2><i class="ion-leaf"></i>Most Popular<i class="ion-leaf"></i></h2>
-                        </div>
-                     </div>
-                     <div class="container">
-                        <div class="popular-product-block">
-                           <div class="product product-1 col-sm-6 col-md-3">
-                              <div class="product-container">
-                                 <img src="img/popular-1.jpg" alt="face cream" class="popular">
-                                 <div class="grey-block">
-                                    <i class="ion-android-car"></i>
-                                    <p>Free Shipping</p>
-                                 </div>
-                                 <div class="popular-product-meta">
-                                    <div class="col-xs-4"><img src="img/popular-1-brand.jpg" alt="andalou beauty"></div>
-                                    <div class="col-xs-4 star-rating"><img src="img/5-stars.jpg" alt="5 star rating"></div>
-                                    <div class="col-xs-4 loyalty-points"><img src="img/2-points.jpg" alt="2 loyalty points"></div>
-                                 </div>
-                                 <div class="product-title">
-                                    <p>Andalou Naturals Age Defying Styling Creme (172ml)<br>&nbsp;</p>
-                                 </div>
-                                 <div class="price">
-                                    <p>$14.95</p>
-                                 </div>
-                                 <button class="btn-std">Add to cart</button>
-                                 <div class="shipping-disclaimer">
-                                    <p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="product product-2 col-sm-6 col-md-3">
-                              <div class="product-container">
-                                 <img src="img/popular-2.jpg" alt="face cream" class="popular"> 
-                                 <div class="grey-block">
-                                    <i class="ion-android-car"></i>
-                                    <p>Free Shipping</p>
-                                 </div>
-                                 <div class="popular-product-meta">
-                                    <div class="col-xs-4"><img src="img/product-2-brand.jpg" alt="kosmea beauty"></div>
-                                    <div class="col-xs-4 star-rating"><img src="img/5-stars.jpg" alt="5 star rating"></div>
-                                    <div class="col-xs-4 loyalty-points"><img src="img/3-points.jpg" alt="3 loyalty points"></div>
-                                 </div>
-                                 <div class="product-title">
-                                    <p>Kosmea Five Minute Facial Musllin Cloth (150ml)<br>&nbsp;</p>
-                                 </div>
-                                 <div class="price">
-                                    <p>$14.95</p>
-                                 </div>
-                                 <button class="btn-muted">Notify Me</button>
-                                 <div class="shipping-disclaimer">
-                                    <p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="product product-3 col-sm-6 col-md-3">
-                              <div class="product-container">
-                                 <img src="img/popular-3.jpg" alt="face cream" class="popular">
-                                 <div class="grey-block">
-                                    <i class="ion-android-car"></i>
-                                    <p>Free Shipping</p>
-                                 </div>
-                                 <div class="popular-product-meta">
-                                    <div class="col-xs-4"><img src="img/popular-3-brand.jpg" alt="andalou beauty"></div>
-                                    <div class="col-xs-4 star-rating"><img src="img/5-stars.jpg" alt="5 star rating"></div>
-                                    <div class="col-xs-4 loyalty-points"><img src="img/1-points.jpg" alt="1 loyalty points"></div>
-                                 </div>
-                                 <div class="product-title">
-                                    <p>Zuii Certified Organic Ultra Powder Foundation - Aspen (10g)</p>
-                                 </div>
-                                 <div class="price">
-                                    <p>$65.00</p>
-                                 </div>
-                                 <button class="btn-std">Add to cart</button>
-                                 <div class="shipping-disclaimer">
-                                    <p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="product product-4 col-sm-6 col-md-3">
-                              <div class="product-container">
-                                 <img src="img/popular-4.jpg" alt="face cream" class="popular">
-                                 <div class="grey-block">
-                                    <i class="ion-android-car"></i>
-                                    <p>Free Shipping</p>
-                                 </div>
-                                 <div class="popular-product-meta">
-                                    <div class="col-xs-4"><img src="img/popular-4-brand.jpg" alt="andalou beauty"></div>
-                                    <div class="col-xs-4 star-rating"><img src="img/5-stars.jpg" alt="5 star rating"></div>
-                                    <div class="col-xs-4 loyalty-points"><img src="img/2-points.jpg" alt="2 loyalty points"></div>
-                                 </div>
-                                 <div class="product-title">
-                                    <p>Noosa Basics Sea Spray<br>(220ml)<br>&nbsp;<br></p>
-                                 </div>
-                                 <div class="price">
-                                    <p>$18.80</p>
-                                 </div>
-                                 <button class="btn-bright">Pre-order</button>
-                                 <div class="shipping-disclaimer">
-                                    <p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <section class="why-shop-flora">
-                  <div class="container">
-                     <div class="row why-shop col-xs-12 col-md-10 why-shop-heading">
-                        <h2><i class="ion-leaf"></i>Why Shop With us<i class="ion-leaf"></i></h2>
-                        <div class="perk perk-1 col-sm-12 col-md-5">
-                           <h4><i class="ion-android-create"></i>Personalised Service</h4>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima assumenda libero doloremque sunt quod enim expedita voluptates labore  </p>
-                        </div>
-                        <div class="perk perk-2 col-sm-12 col-md-5">
-                           <h4><i class="ion-android-star"></i>Awesome Rewards</h4>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quam aliquam recusandae officiis, consequuntur, doloribus ex laboriosam quisquam tenetur </p>
-                        </div>
-                        <div class="perk perk-3 col-sm-12 col-md-5">
-                           <h4><i class="ion-arrow-graph-up-right"></i>Huge Range, 2000 Products</h4>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellendus optio doloremque inventore assumenda asperiores consequuntur </p>
-                        </div>
-                        <div class="perk perk-4 col-sm-12 col-md-5">
-                           <h4><i class="ion-android-car"></i>Express Delivery, same day dispatch Midday</h4>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nobis cum, debitis error </p>
-                        </div>
-                        <div class="why-shop-slider col-xs-12 col-md-10">
-                           <ul class="bxslider-why-shop">
-                              <li>
-                                 <div class="testimonial">
-                                    <h4>[SAMPLE] Product name lorem ipsum </h4>
-                                    <img src="img/5-stars.jpg" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur, </p>
-                                    <cite>John Doe Smith</cite>
-                                 </div>
-                              </li>
-                              <li>
-                                 <div class="testimonial">
-                                    <h4>[SAMPLE] Product name lorem ipsum </h4>
-                                    <img src="img/5-stars.jpg" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur, </p>
-                                    <cite>Jane Example</cite>
-                                 </div>
-                              </li>
-                              <li>
-                                 <div class="testimonial">
-                                    <h4>[SAMPLE] Product name lorem ipsum </h4>
-                                    <img src="img/5-stars.jpg" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur, </p>
-                                    <cite>Donald Trump</cite>
-                                 </div>
-                              </li>
-                              <li>
-                                 <div class="testimonial">
-                                    <h4>[SAMPLE] Product name lorem ipsum </h4>
-                                    <img src="img/5-stars.jpg" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur, </p>
-                                    <cite>Aristotle</cite>
-                                 </div>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <section class="featured-brands theme-heading-container clearfix">
-                  <div class="featured-brands-heading theme-heading col-xs-12">
-                     <h2><i class="ion-leaf"></i>Featured Brands<i class="ion-leaf"></i></h2>
-                  </div>
-                  <div class="featured-brands-slider col-xs-12 col-md-12">
-                     <ul class="bxslider-featured-brands">
-                        <li>
-                           <div class="feat-brand"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand alt"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand alt"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand alt"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand"></div>
-                        </li>
-                        <li>
-                           <div class="feat-brand alt"></div>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="featured-panel-text">
-                     <p class="view-all">view all brands <i class="glyphicon glyphicon-play"></i></p>
-                  </div>
-               </section>
-               <section class="our-blog-section theme-heading-container clearfix">
-                  <div class="theme-heading col-xs-12">
-                     <h2><i class="ion-leaf"></i>Our Blog<i class="ion-leaf"></i></h2>
-                  </div>
-                  <div class="container">
-                     <div class="row our-blog">
-                        <div>
-                           <div class="blog-1-image col-xs-12 col-md-7"><img src="img/placeholder-blog-image-2.jpg" alt=""></div>
-                           <div class="blog-1-content col-xs-12 col-md-5">
-                              <div class="blog-meta clearfix">
-                                 <span class="date">21 October 2016</span> <span class="social-color"><b>Share: &nbsp;</b><i class="ion-social-facebook"></i><i class="ion-social-twitter"></i><i class="ion-social-pinterest"></i><i class="ion-social-googleplus"></i></span>
-                              </div>
-                              <div class="blog-heading">
-                                 <h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-                              </div>
-                              <div class="blog-text-excerpt">
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nemo tempore perspiciatis pariatur veniam praesentium, tempora rerum optio? Illum libero corporis quod beatae non perferendis tempore facere unde atque modi odit, molestiae consequatur accusantium. Vel nisi vero, vitae ad. Quas, eaque minus rem cupiditate alias sequi saepe quis ex, accusantium.</p>
-                              </div>
-                              <button class="theme-button">Read More</button>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row blog-summary">
-                        <div class="blog blog-2 col-xs-6 col-sm-3">
-                           <img src="img/placeholder-blog-image-2.jpg" alt="">
-                           <div class="blog-heading">
-                              <h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-                           </div>
-                           <p>Category Name</p>
-                        </div>
-                        <div class="blog blog-3 col-xs-6 col-sm-3">
-                           <img src="img/placeholder-blog-image-2.jpg" alt="">
-                           <div class="blog-heading">
-                              <h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-                           </div>
-                           <p>Category Name</p>
-                        </div>
-                        <div class="blog blog-4 col-xs-6 col-sm-3">
-                           <img src="img/placeholder-blog-image-2.jpg" alt="">
-                           <div class="blog-heading">
-                              <h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-                           </div>
-                           <p>Category Name</p>
-                        </div>
-                        <div class="blog log-5 col-xs-6 col-sm-3">
-                           <img src="img/placeholder-blog-image-2.jpg" alt="">
-                           <div class="blog-heading">
-                              <h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
-                           </div>
-                           <p>Category Name</p>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <section class="video clearfix">
-                  <div class="row video">
-                     <div class="container">
-                        <div class="video-heading-and-text col-md-7">
-                           <div class="theme-heading-container">
-                              <div class="theme-heading">
-                                 <h2 class="video-h2"><i class="ion-leaf"></i>Video<i class="ion-leaf"></i></h2>
-                              </div>
-                              <div class="video-text-container">
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil laboriosam cupiditate, quisquam voluptates ex repellendus obcaecati illo sapiente harum dolores iusto doloremque nobis itaque eos eligendi reiciendis repudiandae est quis numquam rem asperiores. Ut eum, saepe, consequatur quidem maiores minus in adipisci temporibus repudiandae quasi, dolorem nobis nemo facere.
-                                    <br>
-                                    <br>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, reprehenderit ipsum vitae eligendi accusamus ad optio ut veritatis, placeat ducimus delectus harum minus! Harum, possimus, aliquid. Libero voluptas voluptatem, inventore modi dolorum animi esse maiores, dignissimos, laboriosam, commodi obcaecati. Numquam deserunt iste ullam eaque ad, fuga totam reiciendis. Accusamus, magnam.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="video-media col-md-5">
-                           <div class="video-youtube embed-responsive embed-responsive-16by9">
-                              <iframe width="560" height="215" class="embed-responsive-item" src="https://www.youtube.com/embed/eJH8siMo498" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <section class="video-gallery clearfix">
-                  <div class="container">
-                     <div class="video-gallery col-xs-12">
-                        <div class="image-gallery-v">
-                           <div class="flexy-v"></div>
-                           <div class="flexy-v"></div>
-                           <div class="flexy-v"></div>
-                           <div class="flexy-v"></div>
-                           <div class="flexy-v"></div>
-                           <div class="flexy-v hidden-sm"></div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               
-               
-               <footer>
-                  <div class="row footer-top">
-                     <div class="footer-top-container container">
-                        <div class="stay-connected col-sm-4">
-                            <h4>Stay Connected</h4>
-                            <div class="stay-connected-social">
-                             <i class="ion-social-facebook"></i>
-                             <i class="ion-social-pinterest-outline"></i>
-                             <i class="ion-social-twitter"></i>
-                             <i class="ion-social-youtube"></i>
-                             <i class="ion-social-instagram-outline"></i>   
-                            </div>
-                        </div>
-                     <div class="secure-payment col-xs-6 col-sm-4">
-                         <h4>Secure payment options</h4>
-                         <div class="secure-payment-logos">
-                               <img src="img/secure-payment.png" alt="secure payment options">  
-                            </div>
-                         
-                     </div>
-                     <div class="encrypted-checkout col-xs-6 col-sm-4">
-                         
-                         <h4>Encrypted Checkout</h4>
-                         <div class="encrypted-checkout-logos">
-                               <img src="img/payment-options.png" alt="encrypted checkout">  
-                            </div>
-                         
-                     </div>  
-                     </div>
-                  </div>
-                  
-                  <div class="row footer-mid">
-                      <!-- featuring rosie the pig -->
-                  </div>
-                  
-                  <div class="row footer-bottom">
-                     <div class="footer-bottom-container container">
-                       <div class="service col-xs-6 col-sm-3">
-                         <h4>Service</h4>
-                         <ul>
-                             <li>My Account</li>
-                             <li>Track Order</li>
-                             <li>Resolution Centre</li>
-                         </ul>
-                     </div>
-                     <div class="about-us col-xs-6 col-sm-3">
-                         
-                         <h4>About Us</h4>
-                         <ul>
-                             <li>Affiliates</li>
-                             <li>Supporting the Community</li>
-                             <li>Our Story</li>
-                             <li>Love Our Planet</li>
-                             <li>Flora & Fauna Rewards</li>
-                             <li>FAQs</li>
-                             <li>Delivery Info</li>
-                             <li>Get in Touch</li>
-                         </ul>
-                         
-                     </div>
-                     <div class="information col-xs-6 col-sm-3">
-                         
-                         <h4>Information</h4>
-                         <ul>
-                             <li>Terms of Use</li>
-                             <li>Privacy Policy</li>
-                             <li>Returns Policy</li>
-                             <li>Security Policy</li>
-                         </ul>
-                         
-                     </div>
-                     <div class="bio-details col-xs-6 col-sm-3">
-                         <img src="img/logo-transparent-white.png" alt="">
-                         <p><i class="ion-android-mail"></i>info@floraandfauna.com.au</p>
-                         <p><i class="ion-android-phone-portrait"></i>0497 000 449</p>
-                         <p><i class="ion-android-pin"></i>Flora & Fauna Galston, NSW, 2159</p>
-                     </div>
-                     <div class="copyright col-xs-12">
-                         <p>&copy; 2017 Flora & Fauna <br>
-                         All Rights Reserved. All prices are in AUD unless indicated otherwise. <br>
-                         E-commerce Software By Neto.</p>
-                     </div>  
-                     </div>
-                     
-        
-                  </div>
-                  
-                  
-                    
-                  
-               </footer>
-    
-               
-               <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-               <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-               <script src="js/vendor/bootstrap.min.js"></script>
-               <script src="js/vendor/jquery.bxslider.js"></script>
-               <script src="js/main.js"></script>
-            </body>
-         </html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+	<title>Flora and Fauna</title>
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/ionicons.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js">
+	</script>
+</head>
+<body>
+	<header>
+		<section class="hidden-xs hidden-sm" id="header-top">
+			<div class="row top-bar">
+				<div class="top-bar-text col-sm-12">
+					<p>$6 Delivery Fee with Free Shipping on all orders over $100 in Australia. International Delivery flat rate of $10 <a href="#"><span class="shop-here">Shop Here</span> <i class="glyphicon glyphicon-play"></i></a></p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row mini-menu">
+					<div class="mini-menu-items col-xs-6">
+						<div class="social-links">
+							<a href="#"><i class="ion-social-facebook"></i></a> <a href="#"><i class="ion-social-twitter"></i></a> <a href="#"><i class="ion-social-googleplus"></i></a> <a href="#"><i class="ion-social-youtube"></i></a> <a href="#"><i class="ion-social-instagram-outline"></i></a>
+						</div>
+						<ul class="mini-menu-links">
+							<li>
+								<a href="#">Shop Samples</a> <span>|</span>
+							</li>
+							<li>
+								<a href="#">F&F Rewards</a> <span>|</span>
+							</li>
+							<li>
+								<a href="#">Weekly Promotions</a> <span>|</span>
+							</li>
+							<li>
+								<a href="#">Our Blog</a> <span>|</span>
+							</li>
+							<li>
+								<a href="#">About Us</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="mini-menu-account-links col-xs-6">
+						<li>
+							<a href="#"><i class="ion-help-circled"></i>Help and Advice</a>
+						</li>
+						<li>
+							<a href="#"><i class="glyphicon glyphicon-gift"></i>Gift Certificates</a> <span>|</span>
+						</li>
+						<li>
+							<a href="#"><i class="ion-android-person"></i>My Account</a> <span>|</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="header-main">
+			<div class="container">
+				<div class="row header">
+					<div class="logo-container col-sm-6 col-md-3"><img alt="flora and fauna logo" src="img/logo.jpg"></div>
+					<div class="search-container col-sm-6 col-md-4">
+						<input class="fontAwesome" placeholder="Search over 2000+ products &#xf002;" type="search">
+					</div>
+					<div class="newsletter-promo col-xs-6 col-md-3">
+						<h4><i class="ion-email"></i>NEWSLETTER</h4>
+						<p>Save 10% on your first order by signing up now!</p>
+					</div>
+					<div class="cart-info col-xs-6 col-md-2">
+						<div class="cart-info-container">
+							<div class="cart-info-content">
+								<img alt="" src="img/australia-currency.jpg"> <i class="ion-arrow-down-b"></i> <select class="fontAwesome" name="cart">
+									<option disabled selected value="selection">
+										CART: 2 items
+									</option>
+									<option value="example 1">
+										Awesome thing
+									</option>
+									<option value="example 1">
+										Expensive thing
+									</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<div class="navbar navbar-default navbar-static-top navbar-fixed-top">
+					<div class="container">
+						<div class="navbar-header">
+							<button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand hidden-sm hidden-md hidden-lg hidden-xl" href="#"><img alt="flora and fauna logo" src="img/logo.jpg"></a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li class="dropdown menu-large">
+									<!--<a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">Brands  <i class="ion-arrow-down-b"></i></a>-->
+									<a class="dropdown-toggle menu-item" data-toggle="dropdown" href="#">Brands <span class="caret"></span></a>
+									<ul class="dropdown-menu container" role="menu">
+										<li>
+											<div class="brands-featured col-sm-12 col-md-3">
+												<h4><i class="ion-leaf"></i>Great Selections</h4>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus diam nibh, sed imperdiet lectus egestas eu. consectetur adipiscing elit. Integer rhoncus diam nibh, sed imperdiet lectus egestas eu.</p><a href="#"><button class="theme-button">view all 2000+ brands</button></a>
+											</div>
+											<div class="col-md-9 col-sm-12">
+												<div class="image-gallery">
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+													<div class="flexy"></div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#">New</a>
+								</li>
+								<li class="dropdown menu-large">
+									<a class="dropdown-toggle menu-item" data-toggle="dropdown" href="#">Make up <i class="ion-arrow-down-b"></i></a>
+									<ul class="dropdown-menu row makeup-menu container" role="menu">
+										<li class="col-md-3 col-sm-12 makeup-panel">
+											<div style="margin-left: 2em">
+												<h4><i class="ion-leaf"></i>Make Up</h4><img alt="" class="makeup-hero" src="img/makeup-hero-square.jpg"> <a href="#"><button class="theme-button">view all products</button></a>
+											</div>
+										</li>
+										<li class="col-sm-4 col-md-2">
+											<ul>
+												<li class="dropdown-header">Face</li>
+												<li>
+													<a href="#">Primer</a>
+												</li>
+												<li>
+													<a href="#">Foundation</a>
+												</li>
+												<li>
+													<a href="#">Highlighter</a>
+												</li>
+												<li>
+													<a href="#">Finishing Powder</a>
+												</li>
+												<li>
+													<a href="#">BB Creme</a>
+												</li>
+											</ul>
+											<ul>
+												<li class="dropdown-header">Eyes</li>
+												<li>
+													<a href="#">Eye Primer</a>
+												</li>
+												<li>
+													<a href="#">Eyeshadow</a>
+												</li>
+												<li>
+													<a href="#">Eyeliner</a>
+												</li>
+												<li>
+													<a href="#">Mascara</a>
+												</li>
+												<li>
+													<a href="#">False Eyelashses</a>
+												</li>
+												<li>
+													<a href="#">Eyebrow Pencils</a>
+												</li>
+											</ul>
+										</li>
+										<li class="col-sm-4 col-md-2">
+											<ul>
+												<li class="dropdown-header">Lips</li>
+												<li>
+													<a href="#">Lipstick</a>
+												</li>
+												<li>
+													<a href="#">Lip Gloss</a>
+												</li>
+												<li>
+													<a href="#">Lip Balm</a>
+												</li>
+												<li>
+													<a href="#">Lip Liner</a>
+												</li>
+											</ul>
+											<ul>
+												<li class="dropdown-header">Cheek</li>
+												<li>
+													<a href="#">Blush</a>
+												</li>
+												<li>
+													<a href="#">Bronzer</a>
+												</li>
+											</ul>
+											<ul>
+												<li class="dropdown-header">Nails</li>
+												<li>
+													<a href="#">Nail Polish</a>
+												</li>
+												<li>
+													<a href="#">Peelable Nail Polish</a>
+												</li>
+												<li>
+													<a href="#">Nail Polish Remover</a>
+												</li>
+											</ul>
+										</li>
+										<li class="col-sm-4 col-md-2">
+											<ul>
+												<li>
+													<a href="#">Base Coat & Top Coat</a>
+												</li>
+												<li>
+													<a href="#">Treatments</a>
+												</li>
+											</ul>
+											<ul>
+												<li class="dropdown-header">Brushes & Tools</li>
+												<li>
+													<a href="#">Brush Sets</a>
+												</li>
+												<li>
+													<a href="#">Eye Brushes</a>
+												</li>
+												<li>
+													<a href="#">Lip Brushes</a>
+												</li>
+												<li>
+													<a href="#">Face Brushes</a>
+												</li>
+												<li>
+													<a href="#">Cheek Brushes</a>
+												</li>
+												<li>
+													<a href="#">Sponges</a>
+												</li>
+												<li>
+													<a href="#">Small Tools</a>
+												</li>
+											</ul>
+										</li>
+										<li class="col-sm-12 col-md-3">
+											<div class="makeup-article">
+												<div class="feature-image"></div>
+												<h5>[SAMPLE] Article Title Lorem Ipsum dolor sit amet</h5>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, adipisci?</p><button class="theme-button">READ MORE</button>
+											</div>
+											<div class="makeup-article">
+												<div class="feature-image"></div>
+												<h5>[SAMPLE] Article Title Lorem Ipsum dolor sit amet</h5>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, adipisci?</p><button class="theme-button">READ MORE</button>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a href="#">Skin care</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Body</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Hair</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Dental</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Baby & Kids</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Men</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Living</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Gifts</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Beauty Boxes</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</section>
+	</header>
+	<section class="hero-slider">
+		<div class="container-fluid">
+			<div class="slider">
+				<ul class="bxslider clearfix">
+					<li><img alt="raw makeup on table" src="/img/slider-1-large.jpg"></li>
+					<li><img alt="makeup brushes on tray" src="/img/slider-2-large.jpg"></li>
+				</ul>
+				<div class="slider-text">
+					<h2 class="hidden-xs">La Mav</h2>
+					<h4 class="hidden-xs">Cruelty Free,<br>
+					Vegan Mineral Makeup.</h4><button class="hidden-xs theme-button">Shop Now</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="container-fluid">
+		<div class="row promo-bar clearfix">
+			<div class="promo-bar-text col-sm-12">
+				<p><span class="join">Join</span> <span class="teamfandf">#teamfandf</span> to hear about new products, advice, and offers first. <a href="#"><button class="theme-button promo-btn"><i class="ion-email"></i>Sign up</button></a></p>
+			</div>
+		</div>
+	</div>
+	<section class="most-popular theme-heading-container">
+		<div class="row most-popular-row">
+			<div class="container-fluid">
+				<div class="most-popular-heading theme-heading col-xs-12">
+					<h2><i class="ion-leaf"></i>Most Popular<i class="ion-leaf"></i></h2>
+				</div>
+			</div>
+			<div class="container">
+				<div class="popular-product-block">
+					<div class="product product-1 col-sm-6 col-md-3">
+						<div class="product-container">
+							<img alt="face cream" class="popular" src="img/popular-1.jpg">
+							<div class="grey-block">
+								<i class="ion-android-car"></i>
+								<p>Free Shipping</p>
+							</div>
+							<div class="popular-product-meta">
+								<div class="col-xs-4"><img alt="andalou beauty" src="img/popular-1-brand.jpg"></div>
+								<div class="col-xs-4 star-rating"><img alt="5 star rating" src="img/5-stars.jpg"></div>
+								<div class="col-xs-4 loyalty-points"><img alt="2 loyalty points" src="img/2-points.jpg"></div>
+							</div>
+							<div class="product-title">
+								<p>Andalou Naturals Age Defying Styling Creme (172ml)<br>
+								&nbsp;</p>
+							</div>
+							<div class="price">
+								<p>$14.95</p>
+							</div><button class="btn-std">Add to cart</button>
+							<div class="shipping-disclaimer">
+								<p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
+							</div>
+						</div>
+					</div>
+					<div class="product product-2 col-sm-6 col-md-3">
+						<div class="product-container">
+							<img alt="face cream" class="popular" src="img/popular-2.jpg">
+							<div class="grey-block">
+								<i class="ion-android-car"></i>
+								<p>Free Shipping</p>
+							</div>
+							<div class="popular-product-meta">
+								<div class="col-xs-4"><img alt="kosmea beauty" src="img/product-2-brand.jpg"></div>
+								<div class="col-xs-4 star-rating"><img alt="5 star rating" src="img/5-stars.jpg"></div>
+								<div class="col-xs-4 loyalty-points"><img alt="3 loyalty points" src="img/3-points.jpg"></div>
+							</div>
+							<div class="product-title">
+								<p>Kosmea Five Minute Facial Musllin Cloth (150ml)<br>
+								&nbsp;</p>
+							</div>
+							<div class="price">
+								<p>$14.95</p>
+							</div><button class="btn-muted">Notify Me</button>
+							<div class="shipping-disclaimer">
+								<p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
+							</div>
+						</div>
+					</div>
+					<div class="product product-3 col-sm-6 col-md-3">
+						<div class="product-container">
+							<img alt="face cream" class="popular" src="img/popular-3.jpg">
+							<div class="grey-block">
+								<i class="ion-android-car"></i>
+								<p>Free Shipping</p>
+							</div>
+							<div class="popular-product-meta">
+								<div class="col-xs-4"><img alt="andalou beauty" src="img/popular-3-brand.jpg"></div>
+								<div class="col-xs-4 star-rating"><img alt="5 star rating" src="img/5-stars.jpg"></div>
+								<div class="col-xs-4 loyalty-points"><img alt="1 loyalty points" src="img/1-points.jpg"></div>
+							</div>
+							<div class="product-title">
+								<p>Zuii Certified Organic Ultra Powder Foundation - Aspen (10g)</p>
+							</div>
+							<div class="price">
+								<p>$65.00</p>
+							</div><button class="btn-std">Add to cart</button>
+							<div class="shipping-disclaimer">
+								<p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
+							</div>
+						</div>
+					</div>
+					<div class="product product-4 col-sm-6 col-md-3">
+						<div class="product-container">
+							<img alt="face cream" class="popular" src="img/popular-4.jpg">
+							<div class="grey-block">
+								<i class="ion-android-car"></i>
+								<p>Free Shipping</p>
+							</div>
+							<div class="popular-product-meta">
+								<div class="col-xs-4"><img alt="andalou beauty" src="img/popular-4-brand.jpg"></div>
+								<div class="col-xs-4 star-rating"><img alt="5 star rating" src="img/5-stars.jpg"></div>
+								<div class="col-xs-4 loyalty-points"><img alt="2 loyalty points" src="img/2-points.jpg"></div>
+							</div>
+							<div class="product-title">
+								<p>Noosa Basics Sea Spray<br>
+								(220ml)<br>
+								&nbsp;<br></p>
+							</div>
+							<div class="price">
+								<p>$18.80</p>
+							</div><button class="btn-bright">Pre-order</button>
+							<div class="shipping-disclaimer">
+								<p>Usually Ships in 24 hrs | Ships 4x a year/Pre-order</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="why-shop-flora">
+		<div class="container">
+			<div class="row why-shop col-xs-12 col-md-10 why-shop-heading">
+				<h2><i class="ion-leaf"></i>Why Shop With us<i class="ion-leaf"></i></h2>
+				<div class="perk perk-1 col-sm-12 col-md-5">
+					<h4><i class="ion-android-create"></i>Personalised Service</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima assumenda libero doloremque sunt quod enim expedita voluptates labore</p>
+				</div>
+				<div class="perk perk-2 col-sm-12 col-md-5">
+					<h4><i class="ion-android-star"></i>Awesome Rewards</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quam aliquam recusandae officiis, consequuntur, doloribus ex laboriosam quisquam tenetur</p>
+				</div>
+				<div class="perk perk-3 col-sm-12 col-md-5">
+					<h4><i class="ion-arrow-graph-up-right"></i>Huge Range, 2000 Products</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio repellendus optio doloremque inventore assumenda asperiores consequuntur</p>
+				</div>
+				<div class="perk perk-4 col-sm-12 col-md-5">
+					<h4><i class="ion-android-car"></i>Express Delivery, same day dispatch Midday</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nobis cum, debitis error</p>
+				</div>
+				<div class="why-shop-slider col-xs-12 col-md-10">
+					<ul class="bxslider-why-shop">
+						<li>
+							<div class="testimonial">
+								<h4>[SAMPLE] Product name lorem ipsum</h4><img alt="" src="img/5-stars.jpg">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur,</p><cite>John Doe Smith</cite>
+							</div>
+						</li>
+						<li>
+							<div class="testimonial">
+								<h4>[SAMPLE] Product name lorem ipsum</h4><img alt="" src="img/5-stars.jpg">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur,</p><cite>Jane Example</cite>
+							</div>
+						</li>
+						<li>
+							<div class="testimonial">
+								<h4>[SAMPLE] Product name lorem ipsum</h4><img alt="" src="img/5-stars.jpg">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur,</p><cite>Donald Trump</cite>
+							</div>
+						</li>
+						<li>
+							<div class="testimonial">
+								<h4>[SAMPLE] Product name lorem ipsum</h4><img alt="" src="img/5-stars.jpg">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum accusantium ut suscipit in repellendus unde pariatur,</p><cite>Aristotle</cite>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="featured-brands theme-heading-container clearfix">
+		<div class="featured-brands-heading theme-heading col-xs-12">
+			<h2><i class="ion-leaf"></i>Featured Brands<i class="ion-leaf"></i></h2>
+		</div>
+		<div class="featured-brands-slider col-xs-12 col-md-12">
+			<ul class="bxslider-featured-brands">
+				<li>
+					<div class="feat-brand"></div>
+				</li>
+				<li>
+					<div class="feat-brand alt"></div>
+				</li>
+				<li>
+					<div class="feat-brand"></div>
+				</li>
+				<li>
+					<div class="feat-brand alt"></div>
+				</li>
+				<li>
+					<div class="feat-brand"></div>
+				</li>
+				<li>
+					<div class="feat-brand alt"></div>
+				</li>
+				<li>
+					<div class="feat-brand"></div>
+				</li>
+				<li>
+					<div class="feat-brand alt"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="featured-panel-text">
+			<p class="view-all">view all brands <i class="glyphicon glyphicon-play"></i></p>
+		</div>
+	</section>
+	<section class="our-blog-section theme-heading-container clearfix">
+		<div class="theme-heading col-xs-12">
+			<h2><i class="ion-leaf"></i>Our Blog<i class="ion-leaf"></i></h2>
+		</div>
+		<div class="container">
+			<div class="row our-blog">
+				<div>
+					<div class="blog-1-image col-xs-12 col-md-7"><img alt="" src="img/placeholder-blog-image-2.jpg"></div>
+					<div class="blog-1-content col-xs-12 col-md-5">
+						<div class="blog-meta clearfix">
+							<span class="date">21 October 2016</span> <span class="social-color"><b>Share: &nbsp;</b><i class="ion-social-facebook"></i><i class="ion-social-twitter"></i><i class="ion-social-pinterest"></i><i class="ion-social-googleplus"></i></span>
+						</div>
+						<div class="blog-heading">
+							<h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
+						</div>
+						<div class="blog-text-excerpt">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad nemo tempore perspiciatis pariatur veniam praesentium, tempora rerum optio? Illum libero corporis quod beatae non perferendis tempore facere unde atque modi odit, molestiae consequatur accusantium. Vel nisi vero, vitae ad. Quas, eaque minus rem cupiditate alias sequi saepe quis ex, accusantium.</p>
+						</div><button class="theme-button">Read More</button>
+					</div>
+				</div>
+			</div>
+			<div class="row blog-summary">
+				<div class="blog blog-2 col-xs-6 col-sm-3">
+					<img alt="" src="img/placeholder-blog-image-2.jpg">
+					<div class="blog-heading">
+						<h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+					</div>
+					<p>Category Name</p>
+				</div>
+				<div class="blog blog-3 col-xs-6 col-sm-3">
+					<img alt="" src="img/placeholder-blog-image-2.jpg">
+					<div class="blog-heading">
+						<h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+					</div>
+					<p>Category Name</p>
+				</div>
+				<div class="blog blog-4 col-xs-6 col-sm-3">
+					<img alt="" src="img/placeholder-blog-image-2.jpg">
+					<div class="blog-heading">
+						<h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+					</div>
+					<p>Category Name</p>
+				</div>
+				<div class="blog log-5 col-xs-6 col-sm-3">
+					<img alt="" src="img/placeholder-blog-image-2.jpg">
+					<div class="blog-heading">
+						<h4>[SAMPLE] Product name lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+					</div>
+					<p>Category Name</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video clearfix">
+		<div class="row video">
+			<div class="container">
+				<div class="video-heading-and-text col-md-7">
+					<div class="theme-heading-container">
+						<div class="theme-heading">
+							<h2 class="video-h2"><i class="ion-leaf"></i>Video<i class="ion-leaf"></i></h2>
+						</div>
+						<div class="video-text-container">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil laboriosam cupiditate, quisquam voluptates ex repellendus obcaecati illo sapiente harum dolores iusto doloremque nobis itaque eos eligendi reiciendis repudiandae est quis numquam rem asperiores. Ut eum, saepe, consequatur quidem maiores minus in adipisci temporibus repudiandae quasi, dolorem nobis nemo facere.<br>
+							<br>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, reprehenderit ipsum vitae eligendi accusamus ad optio ut veritatis, placeat ducimus delectus harum minus! Harum, possimus, aliquid. Libero voluptas voluptatem, inventore modi dolorum animi esse maiores, dignissimos, laboriosam, commodi obcaecati. Numquam deserunt iste ullam eaque ad, fuga totam reiciendis. Accusamus, magnam.</p>
+						</div>
+					</div>
+				</div>
+				<div class="video-media col-md-5">
+					<div class="video-youtube embed-responsive embed-responsive-16by9">
+						<iframe allowfullscreen class="embed-responsive-item" frameborder="0" height="215" src="https://www.youtube.com/embed/eJH8siMo498" width="560"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video-gallery clearfix">
+		<div class="container">
+			<div class="video-gallery col-xs-12">
+				<div class="image-gallery-v">
+					<div class="flexy-v"></div>
+					<div class="flexy-v"></div>
+					<div class="flexy-v"></div>
+					<div class="flexy-v"></div>
+					<div class="flexy-v"></div>
+					<div class="flexy-v hidden-sm"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="row footer-top">
+			<div class="footer-top-container container">
+				<div class="stay-connected col-sm-4">
+					<h4>Stay Connected</h4>
+					<div class="stay-connected-social">
+						<i class="ion-social-facebook"></i> <i class="ion-social-pinterest-outline"></i> <i class="ion-social-twitter"></i> <i class="ion-social-youtube"></i> <i class="ion-social-instagram-outline"></i>
+					</div>
+				</div>
+				<div class="secure-payment col-xs-6 col-sm-4">
+					<h4>Secure payment options</h4>
+					<div class="secure-payment-logos"><img alt="secure payment options" src="img/secure-payment.png"></div>
+				</div>
+				<div class="encrypted-checkout col-xs-6 col-sm-4">
+					<h4>Encrypted Checkout</h4>
+					<div class="encrypted-checkout-logos"><img alt="encrypted checkout" src="img/payment-options.png"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row footer-mid">
+			<!-- featuring rosie the pig -->
+		</div>
+		<div class="row footer-bottom">
+			<div class="footer-bottom-container container">
+				<div class="service col-xs-6 col-sm-3">
+					<h4>Service</h4>
+					<ul>
+						<li>My Account</li>
+						<li>Track Order</li>
+						<li>Resolution Centre</li>
+					</ul>
+				</div>
+				<div class="about-us col-xs-6 col-sm-3">
+					<h4>About Us</h4>
+					<ul>
+						<li>Affiliates</li>
+						<li>Supporting the Community</li>
+						<li>Our Story</li>
+						<li>Love Our Planet</li>
+						<li>Flora & Fauna Rewards</li>
+						<li>FAQs</li>
+						<li>Delivery Info</li>
+						<li>Get in Touch</li>
+					</ul>
+				</div>
+				<div class="information col-xs-6 col-sm-3">
+					<h4>Information</h4>
+					<ul>
+						<li>Terms of Use</li>
+						<li>Privacy Policy</li>
+						<li>Returns Policy</li>
+						<li>Security Policy</li>
+					</ul>
+				</div>
+				<div class="bio-details col-xs-6 col-sm-3">
+					<img alt="" src="img/logo-transparent-white.png">
+					<p><i class="ion-android-mail"></i>info@floraandfauna.com.au</p>
+					<p><i class="ion-android-phone-portrait"></i>0497 000 449</p>
+					<p><i class="ion-android-pin"></i>Flora & Fauna Galston, NSW, 2159</p>
+				</div>
+				<div class="copyright col-xs-12">
+					<p>&copy; 2017 Flora & Fauna<br>
+					All Rights Reserved. All prices are in AUD unless indicated otherwise.<br>
+					E-commerce Software By Neto.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js">
+	</script> 
+	<script>
+	window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')
+	</script> 
+	<script src="js/vendor/bootstrap.min.js">
+	</script> 
+	<script src="js/vendor/jquery.bxslider.js">
+	</script> 
+	<script src="js/main.js">
+	</script>
+</body>
+</html>
